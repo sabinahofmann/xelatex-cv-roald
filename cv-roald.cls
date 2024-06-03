@@ -226,6 +226,16 @@
   }
   {\end{tabular}}
 
+  \newenvironment{tabularcvskills}{%
+  \par\noindent
+  \begin{tabular}{
+      @{}>{\raggedright\arraybackslash}S{p{2.3\leftcol}}
+      @{}>{\raggedright\arraybackslash}S{p{\rightcol}}
+      @{}
+    }
+  }
+  {\end{tabular}}
+
 % ---------------------------------------------------------------------------- %
 %                              BODY TEXT OPTIONS                               %
 % ---------------------------------------------------------------------------- %
